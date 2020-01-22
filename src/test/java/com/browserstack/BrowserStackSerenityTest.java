@@ -5,11 +5,14 @@ import com.browserstack.local.Local;
 import java.util.Map;
 import java.util.HashMap;
 
+import cucumber.api.CucumberOptions;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 
 import net.thucydides.core.util.EnvironmentVariables;
 import net.thucydides.core.util.SystemEnvironmentVariables;
+import org.junit.runner.RunWith;
 
 public class BrowserStackSerenityTest {
     static Local bsLocal;
